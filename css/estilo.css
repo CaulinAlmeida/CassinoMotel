@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.muda-fonte {
+    font-family: 'Lato', sans-serif; 
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.divisor {
+  position: absolute;
+  color: #fff;
+  width: 260px;
+}
+
+.btn-outline-light {
+  margin-top: 32px;
+  border-radius: 0;
+  padding: 8px 50px;
+
+}
+
+.btn-outline-dark {
+  margin-top: 32px;
+  border-radius: 0;
+  padding: 8px 50px;
+
+}
+
+/* BOTAO FACEBOOK NAV
+-------------------------------------------------- */
+
+.facebook {
+  position: absolute;
+  background: #000000 url(../img/facebook.svg) no-repeat center;
+  padding: 34px 38px;
+  width: 107px;
+  height: 97px;
+  margin-left: 3.5em;
+  top: 0px;
+  z-index: 2000;
+}
+  
+/* CUSTOMIZA O CAROUSEL
+-------------------------------------------------- */
+
+.carousel {
+  margin-top: 0px;
+}
+
+.carousel-indicators li {
+  margin-top: -90px;
+}
+
+.carousel-caption {
+  bottom: 256px;
+  z-index: 10;
+}
+  
+.carousel-item {
+  height: 629px;
+  background: url(../img/foto\ topo.png) no-repeat; 
+  background-size: 100% 100%
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 629px;
+}
+
+.first-slide {
+  z-index: 0;
+}
+
+/* AREA PRINCIPAL
+-------------------------------------------------- */
+
+.main {
+  background: #000000;
+  position: relative;
+  z-index: 3000;
+  height: 1015px;
+}
+.main-raised {
+  margin: -80px 30px;
+
+}
+.section {
+  padding: 70px;
+}
+
+.container .row a {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: -350px;
+}
+
+.container .row p {
+  text-transform: none;
+  font-size: 14px;
+}
+
+/* BOX IMAGES
+--------------------------------------------------*/
+
+.main .container-fluid .box {
+  position: relative;
+  margin: -10px;
+  margin-top: 25px;
+  width: 395px;
+  height: 266px;
+  overflow: hidden;
+
+}
+
+.main .container-fluid .box .image-box {
+  overflow: hidden;
+}
+
+ .image-box img {
+  max-width: 100%;
+  height: 266px;
+}
+
+.main .container-fluid .box .image-box .contend{
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  background: rgba(217, 36, 27, 0.67);
+  color: #fff;
+  width: 100%;
+  top: 0;
+  left: 0px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.main .container-fluid .box .image-box .contend h3 {
+  text-align: center;
+  padding: 10px;
+  margin: 50px 0 0 0 ;
+}
+
+.main .container-fluid .box .image-box .contend p {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.main .container-fluid .box .image-box:hover .contend {
+  opacity: 1;
+}
+
+/* SOBRE O MOTEL
+-------------------------------------------------- */
+.contend-image {  
+  position: absolute;
+  display: inline-block;
+  width: 604px;
+  height: 488px;
+  margin: 120px 170px;
+  overflow: hidden;
+}
+
+.contend-icon-wifi {
+  position: absolute;
+  background: #323232;
+  width: 100px;
+  height: 109px;
+  margin-left: 100px;
+  margin-top: 170px;
+}
+
+.contend-icon-wifi img {
+  margin: 18px 30px;
+}
+
+.contend-icon-wifi p {
+  position: absolute;
+  background: #323232;
+  padding: 15px 15px;
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: -35px;
+  margin-left: 18px;
+}
+
+
+.contend-icon-cardapio {
+  position: absolute;
+  background: #323232;
+  width: 100px;
+  height: 109px;
+  margin-left: 100px;
+  margin-top: 290px;
+}
+
+.contend-icon-cardapio img {
+  margin: 15px 30px;
+}
+
+.contend-icon-cardapio p {
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: -5px;
+}
+
+.contend-icon-cozinha {
+  position: absolute;
+  background: #323232;
+  width: 100px;
+  height: 109px;
+  margin-left: 100px;
+  margin-top: 410px;
+}
+
+.contend-icon-cozinha img {
+  margin: 15px 30px;
+}
+
+.contend-icon-cozinha p {
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: -5px;
+}
+
+.contend-sobre{
+  display: inline-block;
+  width: 299px;
+  height: auto;
+  margin-left: 110px;
+  margin-top: 170px;
+}
+
+.contend-sobre h1 {
+  text-align: left;
+  font-size: 32px;
+}
+
+.contend-sobre p {
+  color: #fff;
+  text-align: left;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+.btn-light {
+  border-radius: 0;
+  padding: 8px 39px;
+  margin-top: 15px;
+}
+/* CORTESIAS
+-------------------------------------------------- */
+.contend-cortesias {
+  margin: 250px 0;
+}
+
+.contend-cortesias .container .row p {
+  text-transform: none;
+  font-size: 14px;
+}
+/*------------------------------------------------*/
+.contend-cortesias .box-card {
+  position: relative;
+  width: 357px;
+  height: 180px;
+  margin-top: 70px; 
+  margin-right: -100px;
+  overflow: hidden;
+}
+
+.contend-cortesias .box-card .card {
+  border: none;
+  background: rgba(17, 17, 17, 0.04);
+  max-height: 100%;
+  position: relative; 
+}
+
+.contend-cortesias .box-card:hover .card {
+  background: rgba(17, 17, 17, 0.09);
+}
+
+.contend-cortesias .box-card .card .card-body h5, h6, .card-text {
+  text-align: center;
+}
+
+.contend-cortesias .box-card .card .card-body h5, h6 {
+  font-weight: bolder;
+}
+.contend-cortesias .box-card .card .card-body h6 {
+  color: red;
+}
+/* SECTION-MAPA
+-------------------------------------------------- */
+.contend-mapa {
+  width: 1087px;
+  height: 309px;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 160px; 
+  z-index: 9000;
+}
+
+.contend-credito {
+  width: 586px;
+  height: 53px;
+  position: absolute;
+  margin-top: -270px;
+  margin-left: 380px;
+}
+
+.position-p {
+  font-size: 15px;
+  text-align: right;
+  margin-left: 15px;
+  margin-top: -25px;
+}
+/* FOOTER
+-------------------------------------------------- */
+.contend-footer {
+  background: #000000;
+  color: #fff;
+  position: relative;
+  height: 459px;
+  z-index: 8000;
+}
+
+
+footer .container .contend-copyright {
+  height: 58px;
+}
+footer .container .contend-copyright h4 {
+  font-size: 15px;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 5px;
+  padding: 17px;
+
+}
+
+.costumize {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: none;
+  text-transform: capitalize;
+  padding: 1px 0;
+  letter-spacing: 2px;
+}
+
+.contato-endereco {
+  position: absolute;
+  margin-right: -100px;
+}
+
+.contend-links {
+  width: 934px;
+  height: 183px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+.nav-link {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: none;
+  text-transform: capitalize;
+  padding: 1px 0;
+  letter-spacing: 2px;
+}
+
+
+
+/* CSS RESPONSIVE
+-------------------------------------------------- */
+  
+
+@media (max-width: 575.98px) {
+  .main {
+    height: 1550px;
+
+  }
+  .main-raised {
+    margin: -80px 10px;
+
+  }
+  .container h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .container p {
+    font-size: 15px;
+    font-weight: none;
+    text-align: center;
+    text-transform: none;
+  }
+  .container .row a {
+    top: 910px;
+    right: 80px;
+    left: 80px;
+  }
+  .section {
+    padding: 70px 10px; 
+  }
+  .main .container-fluid .box .image-box .contend {
+    opacity: 1;
+  }
+/*------------------------------------------------*/
+  .contend-sobre{
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 85px;
+  }
+
+  .contend-sobre h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+  .contend-sobre p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .contend-icon-wifi {
+    position: absolute;
+    background: #323232;
+    width: 100px;
+    height: 109px;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  
+  .contend-icon-cardapio {
+    position: absolute;
+    background: #323232;
+    width: 100px;
+    height: 109px;
+    margin-left: 139px;
+    margin-top: 20px;
+  }
+  
+  .contend-icon-cozinha {
+    position: absolute;
+    background: #323232;
+    width: 100px;
+    height: 109px;
+    margin-left: 275px;
+    margin-top: 20px;
+  }
+
+  .contend-image {  
+    width: 440px;
+    height: 255px;
+    margin-left: -35px;
+    overflow: hidden;
+  }
+
+  .contend-image img {
+    max-width: 100%;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) {}
